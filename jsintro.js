@@ -17,7 +17,7 @@ const g = b / a * a; // .... 2/4 = .5?
 
 console.log(a,b,c,d,e,f,g);
 
-*/
+
 // from celcius to Fahrenheit degree
 
 let c;
@@ -26,3 +26,13 @@ F = [c] * 9/5 + 32;
 
 console.log ("enter a celcius temperature");
 console.log (F);
+
+*/
+
+let a;
+a = 10;
+console.log(a * 1);
+console.log(a * 2);
+console.log(a * 3);
+console.log(a * 4);
+console.log(a * 5);
