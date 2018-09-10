@@ -27,19 +27,23 @@ F = [c] * 9/5 + 32;
 console.log ("enter a celcius temperature");
 console.log (F);
 
-
+*/
 
 let a;
 a = 10;
-console.log(a * 1);
-console.log(a * 2);
-console.log(a * 3);
-console.log(a * 4);
-console.log(a * 5);
 
-*/
+console.log("Please enter a number");
+
+for (a = 1; a <= 10; a++)
+    {
+        console.log(a*10);
+    }
 
  
+
+
+
+// Fizz Buzz
 for(i=1; i <=100; i++)
     {
         if (i % 3 === 0 && i % 5 === 0 )  // If both conditons are true ===
